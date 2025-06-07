@@ -1,0 +1,159 @@
+
+  const questions = {
+    football: [
+      {
+        question: "Who won the 2018 FIFA World Cup?",
+        options: ["France", "Croatia", "Brazil", "Germany"],
+        correctAnswer: "France",
+      },
+      {
+        question: "Which player has won the most Ballon d'Or awards?",
+        options: ["Lionel Messi", "Cristiano Ronaldo", "Neymar", "Kaka"],
+        correctAnswer: "Lionel Messi",
+      },
+      {
+        question: "Who holds the record for most goals in a single Premier League season?",
+        options: ["Mohamed Salah", "Harry Kane", "Alan Shearer", "Sergio Agüero"],
+        correctAnswer: "Mohamed Salah",
+      },
+      {
+        question: "Which country hosted the 2014 FIFA World Cup?",
+        options: ["Brazil", "Russia", "South Africa", "Germany"],
+        correctAnswer: "Brazil",
+      },
+      {
+        question: "Which player is known as 'The Egyptian King'?",
+        options: ["Mohamed Salah", "Sadio Mane", "Ahmed Hegazi", "Trezeguet"],
+        correctAnswer: "Mohamed Salah",
+      },
+      {
+        question: "Which club won the Champions League in 2020?",
+        options: ["Bayern Munich", "Barcelona", "Real Madrid", "Liverpool"],
+        correctAnswer: "Bayern Munich",
+      },
+      {
+        question: "What is the maximum number of players a football team can have on the field?",
+        options: ["10", "11", "12", "9"],
+        correctAnswer: "11",
+      },
+      {
+        question: "Who is the all-time top scorer in the Premier League?",
+        options: ["Wayne Rooney", "Cristiano Ronaldo", "Alan Shearer", "Sergio Agüero"],
+        correctAnswer: "Alan Shearer",
+      },
+      {
+        question: "Which country is known as 'The land of football'?",
+        options: ["Brazil", "Argentina", "Italy", "Spain"],
+        correctAnswer: "Brazil",
+      },
+      {
+        question: "Who is the manager of Manchester United (2025)?",
+        options: ["Ole Gunnar Solskjaer", "Erik ten Hag", "Jose Mourinho", "Sir Alex Ferguson"],
+        correctAnswer: "Erik ten Hag",
+      },
+    ],
+    basketball: [
+      {
+        question: "Who won the NBA Championship in 2020?",
+        options: ["Miami Heat", "Los Angeles Lakers", "Golden State Warriors", "Toronto Raptors"],
+        correctAnswer: "Los Angeles Lakers",
+      },
+      {
+        question: "Who is known as 'King James'?",
+        options: ["Stephen Curry", "Kobe Bryant", "LeBron James", "Michael Jordan"],
+        correctAnswer: "LeBron James",
+      },
+      {
+        question: "Which NBA team drafted Michael Jordan?",
+        options: ["Chicago Bulls", "Los Angeles Lakers", "Detroit Pistons", "Cleveland Cavaliers"],
+        correctAnswer: "Chicago Bulls",
+      },
+      {
+        question: "Which NBA team does Giannis Antetokounmpo play for?",
+        options: ["Boston Celtics", "Milwaukee Bucks", "Philadelphia 76ers", "Toronto Raptors"],
+        correctAnswer: "Milwaukee Bucks",
+      },
+      {
+        question: "Who is the NBA's all-time top scorer?",
+        options: ["LeBron James", "Kareem Abdul-Jabbar", "Michael Jordan", "Karl Malone"],
+        correctAnswer: "Kareem Abdul-Jabbar",
+      },
+      {
+        question: "Which team won the 1996 NBA Championship?",
+        options: ["Chicago Bulls", "Miami Heat", "Los Angeles Lakers", "San Antonio Spurs"],
+        correctAnswer: "Chicago Bulls",
+      },
+      {
+        question: "Who holds the record for most three-pointers made in a season?",
+        options: ["Stephen Curry", "Klay Thompson", "James Harden", "Ray Allen"],
+        correctAnswer: "Stephen Curry",
+      },
+      {
+        question: "Which team has won the most NBA titles?",
+        options: ["Los Angeles Lakers", "Boston Celtics", "Chicago Bulls", "Golden State Warriors"],
+        correctAnswer: "Los Angeles Lakers",
+      },
+      {
+        question: "Who was the first NBA player to sign a billion-dollar contract?",
+        options: ["Michael Jordan", "LeBron James", "Kobe Bryant", "Stephen Curry"],
+        correctAnswer: "LeBron James",
+      },
+      {
+        question: "Which country is the origin of the NBA?",
+        options: ["Canada", "USA", "Brazil", "Spain"],
+        correctAnswer: "USA",
+      },
+    ],
+    cricket: [
+      {
+        question: "Who is known as the 'Master Blaster'?",
+        options: ["Sachin Tendulkar", "Virat Kohli", "Brian Lara", "Ricky Ponting"],
+        correctAnswer: "Sachin Tendulkar",
+      },
+      {
+        question: "Which country won the ICC Cricket World Cup in 2019?",
+        options: ["India", "Australia", "England", "New Zealand"],
+        correctAnswer: "England",
+      },
+      {
+        question: "Who is the fastest to score 1000 runs in ODI cricket?",
+        options: ["AB de Villiers", "Virat Kohli", "Shane Watson", "Chris Gayle"],
+        correctAnswer: "AB de Villiers",
+      },
+      {
+        question: "Who has the most wickets in World Cup history?",
+        options: ["Muttiah Muralitharan", "Shane Warne", "Wasim Akram", "Glenn McGrath"],
+        correctAnswer: "Muttiah Muralitharan",
+      },
+      {
+        question: "Who is the captain of the Indian cricket team (2025)?",
+        options: ["MS Dhoni", "Virat Kohli", "Rohit Sharma", "KL Rahul"],
+        correctAnswer: "Rohit Sharma",
+      },
+      {
+        question: "Which team has won the most ICC T20 World Cups?",
+        options: ["India", "Sri Lanka", "West Indies", "Australia"],
+        correctAnswer: "West Indies",
+      },
+      {
+        question: "Who holds the record for most runs in a single ODI match?",
+        options: ["Shikhar Dhawan", "David Warner", "Chris Gayle", "Rohit Sharma"],
+        correctAnswer: "Rohit Sharma",
+      },
+      {
+        question: "What is the maximum number of overs in a standard ODI match?",
+        options: ["30", "40", "50", "60"],
+        correctAnswer: "50",
+      },
+      {
+        question: "Who holds the record for most centuries in Test cricket?",
+        options: ["Sachin Tendulkar", "Ricky Ponting", "Steve Smith", "Jack Hobbs"],
+        correctAnswer: "Sachin Tendulkar",
+      },
+      {
+        question: "Who is known as the 'Wall' of Indian cricket?",
+        options: ["Virat Kohli", "Rohit Sharma", "Sourav Ganguly", "Rahul Dravid"],
+        correctAnswer: "Rahul Dravid",
+      },
+    ],
+  };

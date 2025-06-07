@@ -1,3 +1,78 @@
+# Quiz App with MongoDB Integration
+
+A simple quiz application with user authentication and MongoDB integration.
+
+## Features
+
+- User registration and login with MongoDB
+- Multiple quiz categories (Football, Basketball, Cricket)
+- Timed questions with score tracking
+- Results page showing final score
+
+## Prerequisites
+
+- Node.js and npm
+- MongoDB installed and running locally
+
+## Setup and Running
+
+### 1. Start MongoDB
+
+Make sure MongoDB is running on your local machine. The default connection URL is:
+```
+mongodb://localhost:27017/quizapp
+```
+
+### 2. Install Dependencies
+
+```bash
+# Install frontend dependencies
+npm install
+
+# Install backend dependencies
+cd backend
+npm install
+```
+
+### 3. Run the Backend Server
+
+```bash
+# From the backend directory
+npm run dev
+```
+
+The backend server will start on http://localhost:5001
+
+### 4. Run the Frontend
+
+In a new terminal:
+
+```bash
+# From the root directory
+npm start
+```
+
+The frontend will start on http://localhost:3000
+
+## How to Use
+
+1. Register a new account on the signup page (4-digit numeric password required)
+2. Log in with your credentials
+3. Select a quiz category from the home page
+4. Read the rules and click Start Quiz
+5. Answer the questions within the 10-second time limit
+6. View your final score on the results page
+
+## Project Structure
+
+- `/src` - React frontend
+- `/backend` - Express/MongoDB backend
+  - `/config` - Database configuration
+  - `/controllers` - Request handlers
+  - `/models` - Mongoose models
+  - `/routes` - API routes
+  - `/middleware` - Custom middleware
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
